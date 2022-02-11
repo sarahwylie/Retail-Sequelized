@@ -1,6 +1,6 @@
 const express = require('express');
 const routes = require('./routes');
-const session = require('express-session');
+// const session = require('express-session');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -19,8 +19,8 @@ const sequelize = require("./config/connection");
 // };
 
 // app.use(session(sess));
-// app.use(express.json());
-// app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 app.use(routes);
 
