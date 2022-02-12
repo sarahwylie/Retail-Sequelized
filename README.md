@@ -6,7 +6,7 @@ Databases can be tricky because they are out of sight, but come down the rabbit 
 ## Installation
 Clone the files to your local files, then be sure you have npm installed by running "npm i" in your terminal. This project relies on mysql2, dotenv, and express dependecies, so install those (using "npm i <dependency>") if they do not show up in the downloaded package.json dependencies. Set up your mysql shell, and type "source db/schema.sql" in the command line. Quit mysql (type "quit" into the command line), then seed the project by typing "npm run seed" in the command line. Now start up your database by typing "npm start" into the terminal, and you are all set to check out the database in Insomnia! Check out the full process here:
 
-
+https://user-images.githubusercontent.com/90208612/153693850-efa2e1a4-042e-484d-9d7e-1d89ca315acd.mp4
 
 ## Usage
 Check out my backend skills!
